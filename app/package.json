@@ -1,0 +1,49 @@
+{
+  "name": "json-2-typescript",
+  "description": "A CLI to transform JSON to TypeScript Interfaces",
+  "version": "1.0.0",
+  "main": "json-2-typescript.js",
+  "bin": {
+    "json-to-typescript": "./json-2-typescript.js"
+  },
+  "scripts": {
+    "start": "node json-2-typescript.js",
+    "dev": "nodemon json-2-typescript.js",
+    "test": "node json-2-typescript.js --help",
+    "format": "prettier --write json-2-typescript.js README.md",
+    "format:check": "prettier --check json-2-typescript.js README.md",
+    "link": "npm link"
+  },
+  "keywords": [
+    "json",
+    "typescript",
+    "cli",
+    "converter",
+    "interfaces",
+    "generator",
+    "types",
+    "json2ts"
+  ],
+  "author": "Kevin Gleeson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinG115/JsonToTypescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KevinG115/JsonToTypescript/issues"
+  },
+  "homepage": "https://github.com/KevinG115/JsonToTypescript#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "json-2-typescript.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
