@@ -1,7 +1,7 @@
 # JsonToTypescript 🔄
 
 Convert raw JSON into clean, readable TypeScript types or interfaces in seconds.
-<img src="./app/assets/json-to-typescript.png" alt="JsonToTypescript CLI Demo" width="600">
+<img src="./app/assets/json2typescript.png" alt="JsonToTypescript CLI Demo" width="600">
 ## Features
 
 - **One-step generation**: paste JSON and press Enter to generate a `.ts` file
