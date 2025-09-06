@@ -1,5 +1,5 @@
 {
-  "name": "json-2-typescript",
+  "name": "json-typescript-generator",
   "description": "A CLI to transform JSON to TypeScript Interfaces",
   "version": "1.0.0",
   "main": "json-2-typescript.js",
